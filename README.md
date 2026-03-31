@@ -7,3 +7,5 @@
 Domasnean Vichiente Valentin : Pe landing page m-am ocupat de cele 3 carduri dinamice descrierea lor , mica poveste a site-ului si intro-ul firmei.
 
 Voicu Delia Gabriela: M- am ocupat de realizarea prompt-ului pentru realizarea site-ului in bolt.new
+
+Ticu Catalin Ciprian: M-am ocupat de repository-uri, de conectarea cu github si integrarea site-ului si generarea lui ca solid-site.
