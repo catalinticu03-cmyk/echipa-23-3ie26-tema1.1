@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Artisan Brew & Beans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Artisan Brew & Beans</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" onclick="navigateToPage('index')" class="nav-link">Acasă</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" onclick="navigateToPage('menu')" class="nav-link">Meniu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" onclick="navigateToPage('our-story')" class="nav-link">Povestea Noastră</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" onclick="navigateToPage('contact')" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contactează-ne</h1>
+                <p>Ne-ar plăcea să auzim de la tine. Vizitează-ne astăzi sau ia legătura cu noi!</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Vizitează Cafeneaua Noastră</h2>
+                        <div class="contact-item">
+                            <h3>Locația</h3>
+                            <p>Strada Cafelei 123<br>
+                            București, Sector 1, 010101</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Telefon</h3>
+                            <p>(021) 123-CAFEA</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>salut@artisanbrewbeans.ro</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Program Magazin</h3>
+                            <div class="hours-table">
+                                <div class="hours-row">
+                                    <span>Luni - Vineri</span>
+                                    <span>06:00 - 20:00</span>
+                                </div>
+                                <div class="hours-row">
+                                    <span>Sâmbătă</span>
+                                    <span>07:00 - 21:00</span>
+                                </div>
+                                <div class="hours-row">
+                                    <span>Duminică</span>
+                                    <span>07:00 - 19:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-section">
+                        <h2>Trimite-ne un Mesaj</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nume Complet *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Adresa de Email *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Numărul de Telefon</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subiect *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Te rog selectează un subiect</option>
+                                    <option value="general">Întrebare Generală</option>
+                                    <option value="catering">Servicii de Catering</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="wholesale">Oportunități de Vânzare cu Ridicata</option>
+                                    <option value="other">Altele</option>
+                                </select>
+                                <span class="error-message" id="subjectError"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mesaj *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Spune-ne cum te putem ajuta..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            <button type="submit" class="submit-btn">Trimite Mesajul</button>
+                            <div id="successMessage" class="success-message" style="display: none;">
+                                Mulțumim pentru mesajul tău! Îți vom răspunde în termen de 24 de ore.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="additional-info">
+                    <h2>Informații Suplimentare</h2>
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <h3>Evenimente Private</h3>
+                            <p>Organizăm degustări private de cafea, workshop-uri și evenimente corporative. Contactează-ne pentru a discuta nevoile tale și a personaliza o experiență pentru grupul tău.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Vânzare cu Ridicata</h3>
+                            <p>Interesat să servești cafeaua noastră la afacerea ta? Oferim prețuri cu ridicata și amestecuri personalizate pentru restaurante, birouri și parteneri de retail.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Cursuri de Cafea</h3>
+                            <p>Învață arta preparării cafelei cu cursurile noastre practice. De la bazele espresso-ului la tehnicile pour-over, oferim workshop-uri pentru toate nivelurile de pricepere.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Sustenabilitate</h3>
+                            <p>Află mai multe despre practicile noastre de sustenabilitate, parteneriatele de comerț direct și cum lucrăm pentru a face cafeaua mai bună pentru toți din lanțul de aprovizionare.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Artisan Brew & Beans</h3>
+                    <p>Creăm experiențe excepționale de cafea din 2018. Vizitează-ne pentru ceasca perfectă.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Linkuri Rapide</h4>
+                    <ul>
+                        <li><a href="#" onclick="navigateToPage('index')">Acasă</a></li>
+                        <li><a href="#" onclick="navigateToPage('menu')">Meniu</a></li>
+                        <li><a href="#" onclick="navigateToPage('our-story')">Povestea Noastră</a></li>
+                        <li><a href="#" onclick="navigateToPage('contact')">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Program</h4>
+                    <ul>
+                        <li>Luni - Vineri: 06:00 - 20:00</li>
+                        <li>Sâmbătă: 07:00 - 21:00</li>
+                        <li>Duminică: 07:00 - 19:00</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Strada Cafelei 123</li>
+                        <li>București, Sector 1, 010101</li>
+                        <li>(021) 123-CAFEA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Artisan Brew & Beans. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

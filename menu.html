@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meniu - Artisan Brew & Beans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Artisan Brew & Beans</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="menu.html" onclick="navigateToPage('index')" class="nav-link">Acasă</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" onclick="navigateToPage('menu')" class="nav-link active">Meniu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="our-story.html" onclick="navigateToPage('our-story')" class="nav-link">Povestea Noastră</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" onclick="navigateToPage('contact')" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Meniul Nostru</h1>
+                <p>Descoperă selecția noastră atent curată de cafele premium, cold brew-uri răcoritoare și produse de patiserie artizanale.</p>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <div class="container">
+                <div class="menu-category">
+                    <h2>Cafea Caldă</h2>
+                    <div class="menu-items">
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Espresso Signature">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Espresso Signature</h3>
+                                    <span class="price">18,50 lei</span>
+                                </div>
+                                <p>Amestecul nostru de casă cu arome bogate și îndrăznețe cu note de ciocolată neagră și caramel. Extras perfect pentru experiența supremă de espresso.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Latte Artizanal">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Latte Artizanal</h3>
+                                    <span class="price">23,75 lei</span>
+                                </div>
+                                <p>Preparat cu expertiză cu espresso-ul nostru signature și lapte spumat perfect. Disponibil cu sirop de vanilie, caramel sau alune făcut în casă.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Cappuccino">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Cappuccino Tradițional</h3>
+                                    <span class="price">21,25 lei</span>
+                                </div>
+                                <p>Cappuccino clasic în stil italian cu părți egale de espresso, lapte spumat și spumă bogată. Presărat cu pudră de cacao.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Pour Over">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Pour Over Single Origin</h3>
+                                    <span class="price">25,25 lei</span>
+                                </div>
+                                <p>Cafea turnată manual care evidențiază caracteristicile unice ale boabelor din regiuni specifice. Selecții rotative din Etiopia, Guatemala și Columbia.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1702373/pexels-photo-1702373.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Americano">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Café Americano</h3>
+                                    <span class="price">19,75 lei</span>
+                                </div>
+                                <p>Shot-uri bogate de espresso completate cu apă fierbinte, creând o cafea netedă și echilibrată cu puterea espresso-ului și volumul cafelei picurate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h2>Cold Brew</h2>
+                    <div class="menu-items">
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1458671/pexels-photo-1458671.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Cold Brew Special">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Cold Brew Special</h3>
+                                    <span class="price">21,25 lei</span>
+                                </div>
+                                <p>Cold brew neted și răcoritor lăsat la infuzat 12 ore. Natural dulce cu accente de vanilie și zahăr brun. Servit cu gheață.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1755385/pexels-photo-1755385.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Nitro Cold Brew">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Nitro Cold Brew</h3>
+                                    <span class="price">23,95 lei</span>
+                                </div>
+                                <p>Cold brew-ul nostru signature infuzat cu azot pentru o textură cremoasă și netedă și un efect în cascadă. Bogat și îndrăzneț fără amărăciune.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Iced Latte">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Latte Rece cu Vanilie</h3>
+                                    <span class="price">23,75 lei</span>
+                                </div>
+                                <p>Combinație răcoritoare și cool a espresso-ului nostru signature, lapte rece și sirop de vanilie făcut în casă, servit cu gheață.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Cold Brew Float">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Cold Brew Float</h3>
+                                    <span class="price">26,50 lei</span>
+                                </div>
+                                <p>O delicatesă încântătoare care combină cold brew-ul nostru cu o lingură de înghețată premium de vanilie. Perfect pentru după-amiezile calde.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h2>Produse de Patiserie</h2>
+                    <div class="menu-items">
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Croissant cu Unt">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Croissant Artizanal cu Unt</h3>
+                                    <span class="price">15,75 lei</span>
+                                </div>
+                                <p>Croissant foietajat și untos copt proaspăt zilnic. Companionul perfect pentru cafeaua noastră cu straturile sale delicate și aroma bogată.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Muffin cu Afine">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Muffin cu Afine Sălbatice</h3>
+                                    <span class="price">17,25 lei</span>
+                                </div>
+                                <p>Muffin umed și moale plin cu afine sălbatice. Făcut cu făină organică și acoperit cu un streusel ușor.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1998920/pexels-photo-1998920.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Rulou cu Scorțișoară">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Rulou cu Scorțișoară</h3>
+                                    <span class="price">19,95 lei</span>
+                                </div>
+                                <p>Rulou cald și lipicios cu umplutura de scorțișoară făcută în casă și glazură de brânză cremă. Copt proaspăt pe tot parcursul zilei.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Scone cu Migdale">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Scone cu Migdale și Merișoare</h3>
+                                    <span class="price">18,50 lei</span>
+                                </div>
+                                <p>Scone tradițional în stil englezesc cu felii de migdale și merișoare uscate. Servit cu smântână bătută și gem la cerere.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item-detailed">
+                            <img src="https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Toast cu Avocado">
+                            <div class="item-content">
+                                <div class="item-header">
+                                    <h3>Toast cu Avocado</h3>
+                                    <span class="price">29,25 lei</span>
+                                </div>
+                                <p>Avocado proaspăt întins pe pâine artizanală de maia, acoperit cu roșii cherry, microverdeturi și o presărare de sare de mare și piper.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Artisan Brew & Beans</h3>
+                    <p>Creăm experiențe excepționale de cafea din 2018. Vizitează-ne pentru ceasca perfectă.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Linkuri Rapide</h4>
+                    <ul>
+                        <li><a href="#" onclick="navigateToPage('index')">Acasă</a></li>
+                        <li><a href="#" onclick="navigateToPage('menu')">Meniu</a></li>
+                        <li><a href="#" onclick="navigateToPage('our-story')">Povestea Noastră</a></li>
+                        <li><a href="#" onclick="navigateToPage('contact')">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Program</h4>
+                    <ul>
+                        <li>Luni - Vineri: 06:00 - 20:00</li>
+                        <li>Sâmbătă: 07:00 - 21:00</li>
+                        <li>Duminică: 07:00 - 19:00</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Strada Cafelei 123</li>
+                        <li>București, Sector 1, 010101</li>
+                        <li>(021) 123-CAFEA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Artisan Brew & Beans. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
