@@ -5,3 +5,4 @@
 4. pentru poze an folosit : shutterstock.com, pexels.com si unplash.com
 
 Domasnean Vichiente Valentin : Pe landing page m-am ocupat de cele 3 carduri dinamice descrierea lor , mica poveste a site-ului si intro-ul firmei.
+Voicu Delia Gabriela: M- am ocupat de realizarea prompt-ului pentru realizarea site-ului in bolt.new
