@@ -9,3 +9,5 @@ Domasnean Vichiente Valentin : Pe landing page m-am ocupat de cele 3 carduri din
 Voicu Delia Gabriela: M- am ocupat de realizarea prompt-ului pentru realizarea site-ului in bolt.new
 
 Ticu Catalin Ciprian: M-am ocupat de repository-uri, de conectarea cu github si integrarea site-ului si generarea lui ca solid-site.
+
+Zirbo Raluca: M-am ocupat de procurarea informatiilor pentru site.
